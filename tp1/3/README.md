@@ -1,5 +1,7 @@
 # Salle au trésor
 
+![treasure_img](https://cdn.pixabay.com/photo/2014/11/01/22/33/gold-513062_1280.jpg)
+
 ## Énoncé
 
 Après avoir surmonté un boss difficile de jeu vidéo, il est temps pour vous de récupérer votre récompense : vous arrivez dans une salle au trésor. Dans ce jeu, votre personnage peut ramasser deux sortes d'objets :

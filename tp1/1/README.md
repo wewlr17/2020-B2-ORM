@@ -1,5 +1,7 @@
 # Marathon
 
+![marathon_img](https://cdn.pixabay.com/photo/2016/01/19/15/19/street-marathon-1149220_1280.jpg)
+
 ## Énoncé
 
 Le marathon est une épreuve sportive où les participants doivent parcourir 42 kilomètres. Lors d'une soirée pizza avec vos amis, vous discutez du prochain marathon qui se tiendra dans votre ville. Vos amis sont convaincus que vous n'êtes pas capable de terminer la course et vous, vous leur jurez que vous êtes sûr(e) de finir dans les 100 premiers.

@@ -1,5 +1,7 @@
 # Déménagement
 
+![move_img](https://cdn.pixabay.com/photo/2018/08/01/22/22/graphic-3578346_1280.png)
+
 ## Énoncé
 
 Vous cherchez depuis plusieurs mois un nouveau logement et vous avez enfin trouvé l'appartement de vos rêves. Seul petit problème, il est situé au 8ème étage et il n'y a pas d'ascenseur. Le déménagement risque d'être compliqué. Vous décidez alors d'utiliser un monte-charge. C'est super pratique car vous pouvez y déposer plusieurs cartons. Par contre, il ne supporte pas un poids strictement supérieur à 100 Kg.
