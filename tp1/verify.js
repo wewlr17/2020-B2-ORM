@@ -46,8 +46,9 @@ for (const exo of exos) {
       ])
       process.exit(1)
     }
-
-    if (result !== dataset.output) {
+    isValidOutput = Array.isArray(dataset.output) ? 
+      dataset.output.includes(result) : result === dataset.output
+    if (!isValidOutput) {
       log([
         `${exo.name} -> ${bright}${blink}${red}KO${reset}`,
         `${bright}Got ${result} but expected ${dataset.output}${reset}`
