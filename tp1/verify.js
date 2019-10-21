@@ -38,6 +38,7 @@ for (const exo of exos) {
     let result = undefined
     try {
       result = exo.algo(dataset.input)
+      exo.verify(dataset, result)
     } catch (err) {
       log([
         `${exo.name} -> ${bright}${blink}${red}KO${reset}`,
@@ -45,15 +46,6 @@ for (const exo of exos) {
         err
       ])
       process.exit(1)
-    }
-    isValidOutput = Array.isArray(dataset.output) ? 
-      dataset.output.includes(result) : result === dataset.output
-    if (!isValidOutput) {
-      log([
-        `${exo.name} -> ${bright}${blink}${red}KO${reset}`,
-        `${bright}Got ${result} but expected ${dataset.output}${reset}`
-      ])
-      process.exit(2)
     }
   }
   log(`${exo.name} -> ${bright}${green}OK${reset}\n`)
